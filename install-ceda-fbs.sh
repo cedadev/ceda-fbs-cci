@@ -25,10 +25,12 @@ install_ceda_fbs()
   echo "**Installing environment.**"
   echo "***************************"
 
+  cd ceda-fbs
+
   python -m venv $env_dir --system-site-packages
   . $env_dir/bin/activate
-  pip install -r  $code_dir/python/pip_requirements.txt
-  pip install $code_dir
+  pip install poetry
+  poetry install
 
   echo  "***********************"
   echo  "**Installation ended.**"
