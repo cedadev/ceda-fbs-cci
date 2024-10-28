@@ -1,10 +1,10 @@
 # Recipe for running CEDA FBS on the whole archive
 
-## Login to jasmin-sci2 server and locate yourself
+## Login to sci-vm-02 server and locate yourself
 
 ```
-$ ssh ${USER}@jasmin-sci2.ceda.ac.uk
-$ cd /group_workspaces/jasmin4/cedaproc/${USER}/
+$ ssh ${USER}@sci-vm-02.ceda.ac.uk
+$ cd /gws/nopw/j04/cedaproc/${USER}/
 $ mkdir fbs
 $ export BASEDIR=$PWD
 $ cd fbs/
