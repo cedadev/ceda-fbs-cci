@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "ceda-fbs"
+version = "0.1.2"
+description = "File Based Search scanning code"
+authors = ["Richard Smith, Daniel Westwood <daniel.westwood@stfc.ac.uk>"]
+license = "{file='LICENSE'}"
+readme = "README.md"
+
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Console',
+    'Intended Audience :: End Users/Desktop',
+    'Intended Audience :: Developers',
+    'Intended Audience :: System Administrators',
+    'Intended Audience :: Science/Research',
+    'License :: OSI Approved :: BSD License',
+    'Natural Language :: English',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: POSIX :: Linux',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3.5',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Topic :: Scientific/Engineering',
+    'Topic :: System :: Distributed Computing',
+    'Topic :: System :: Systems Administration :: Authentication/Directory',
+    'Topic :: Software Development :: Libraries :: Python Modules'
+]
+
+[project.urls]
+Repository = "https://github.com/cedadev/ceda-fbs/"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+elasticsearch = "^7"
+ceda-elasticsearch-tools = { git = "https://github.com/cedadev/ceda-elasticsearch-tools.git", tag = "2.4.0" }
+nappy = { git = "https://github.com/cedadev/nappy.git", tag = "2.1.0"}
+ldap3 = "^2"
+xmltodict = "0.12.0"
+python-magic = "0.4.22"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
