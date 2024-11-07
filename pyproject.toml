@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ceda-fbs"
-version = "0.2.0"
+version = "0.2.1"
 description = "File Based Search scanning code"
 authors = ["Richard Smith, Daniel Westwood <daniel.westwood@stfc.ac.uk>"]
 license = "{file='LICENSE'}"
@@ -33,8 +33,8 @@ Repository = "https://github.com/cedadev/ceda-fbs/"
 [tool.poetry.dependencies]
 python = "^3.12"
 elasticsearch = "^7"
-ceda-elasticsearch-tools = { git = "https://github.com/cedadev/ceda-elasticsearch-tools.git", tag = "2.4.0" }
-nappy = { git = "https://github.com/cedadev/nappy.git", tag = "2.1.0"}
+ceda-elasticsearch-tools = { git = "https://github.com/cedadev/ceda-elasticsearch-tools.git", tag = "v2.4.0" }
+nappy = { git = "https://github.com/cedadev/nappy.git", tag = "v2.1.0"}
 ldap3 = "^2"
 xmltodict = "0.12.0"
 python-magic = "0.4.22"
