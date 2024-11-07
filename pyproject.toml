@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ceda-fbs"
-version = "0.1.2"
+version = "0.2.0"
 description = "File Based Search scanning code"
 authors = ["Richard Smith, Daniel Westwood <daniel.westwood@stfc.ac.uk>"]
 license = "{file='LICENSE'}"
