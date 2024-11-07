@@ -31,7 +31,7 @@ classifiers = [
 Repository = "https://github.com/cedadev/ceda-fbs/"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.10"
 elasticsearch = "^7"
 ceda-elasticsearch-tools = { git = "https://github.com/cedadev/ceda-elasticsearch-tools.git", tag = "v2.4.0" }
 nappy = { git = "https://github.com/cedadev/nappy.git", tag = "v2.0.3" }
